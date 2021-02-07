@@ -12,5 +12,4 @@ Execute command to install:
 **_pip3 install -r requirements.txt_**
 
 ## Executing the application
-To the run the application, execute the command: <br />
-**_flask run_**
+To the run the application, execute the command: **_flask run_**
