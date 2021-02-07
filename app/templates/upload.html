@@ -1,0 +1,17 @@
+{% extends 'base_template.html' %}
+
+{% block title %}File Uploader{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <p class="text-center">
+    <h1>Upload Status</h1> <br>
+    <div>
+        <label for="filename">Filename: {{ filename }}</label> <br>
+        <label for="status">Status: {{ status }}</label>
+    </div>
+    </p>
+</div>
+
+{% endblock %}

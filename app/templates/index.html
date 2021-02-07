@@ -1,0 +1,26 @@
+{% extends 'base_template.html' %}
+
+{% block title %}File Uploader{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <h1>CSV File Uploader</h1>
+    <form action='/upload' id="upload-file" method="POST" enctype="multipart/form-data"
+        class="row gx-3 gy-2 align-items-center">
+        <p>
+        <div class="col-sm-3">
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02" name="csvfile">
+            </div>
+        </div>
+        </p>
+
+        <div class="col-auto">
+            <button id="upload-file-btn" type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+    </form>
+</div>
+
+{% endblock %}
